@@ -1,0 +1,18 @@
+.af-select {
+  @apply .block .appearance-none .w-full .bg-grey-lighter .border .border-grey-lighter .text-grey-darker .py-3 .px-4 .pr-8 .rounded;
+}
+
+.af-text-input {
+  @apply .shadow .appearance-none .border .rounded .w-full .py-2 .px-3 .text-grey-darker;
+}
+
+.af-submit-button {
+  @apply .block .bg-blue .text-white .font-bold .py-2 .px-4 .rounded;
+  &:hover {
+    @apply .bg-blue-dark;
+  }
+}
+
+label {
+  @apply .block .text-grey-darker .text-sm .font-bold .mb-2;
+}

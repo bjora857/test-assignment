@@ -1,0 +1,7 @@
+.af-error-display {
+  @apply .flex .items-center .bg-red .text-white .text-sm .font-bold .px-4 .py-3 .mb-4;
+}
+
+.af-info-display {
+  @apply .flex .items-center .bg-blue .text-white .text-sm .font-bold .px-4 .py-3 .mb-4;
+}
